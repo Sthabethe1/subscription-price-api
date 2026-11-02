@@ -1,0 +1,18 @@
+country,country_name,region,currency,services_compared,median_price_vs_us_pct,share_cheaper_than_us_pct,page
+EG,Egypt,Africa,EGP,124,-56.2,93.5,https://subpriced.com/country/egypt
+TR,Turkey,Europe,TRY,136,-49.0,89.0,https://subpriced.com/country/turkey
+NG,Nigeria,Africa,NGN,128,-48.2,67.2,https://subpriced.com/country/nigeria
+PK,Pakistan,Asia,PKR,120,-36.3,84.2,https://subpriced.com/country/pakistan
+IN,India,Asia,INR,131,-27.2,67.2,https://subpriced.com/country/india
+BR,Brazil,Americas,BRL,127,-23.3,74.0,https://subpriced.com/country/brazil
+JP,Japan,Asia,JPY,113,-15.2,85.8,https://subpriced.com/country/japan
+CA,Canada,Americas,CAD,138,-10.5,94.2,https://subpriced.com/country/canada
+MX,Mexico,Americas,MXN,121,-7.3,55.4,https://subpriced.com/country/mexico
+KR,South Korea,Asia,KRW,118,-5.1,59.3,https://subpriced.com/country/south-korea
+AR,Argentina,Americas,USD,114,0.0,47.4,https://subpriced.com/country/argentina
+AU,Australia,Oceania,AUD,142,5.3,32.4,https://subpriced.com/country/australia
+FR,France,Europe,EUR,129,13.7,21.7,https://subpriced.com/country/france
+DE,Germany,Europe,EUR,130,13.8,23.1,https://subpriced.com/country/germany
+CH,Switzerland,Europe,CHF,123,20.3,15.4,https://subpriced.com/country/switzerland
+GB,United Kingdom,Europe,GBP,141,23.7,20.6,https://subpriced.com/country/uk
+DK,Denmark,Europe,DKK,140,25.1,17.1,https://subpriced.com/country/denmark

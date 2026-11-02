@@ -1,0 +1,147 @@
+service,service_name,category,plan,store,billing_period,countries,us_price_usd,cheapest_country,cheapest_price_usd,cheapest_local_price,most_expensive_country,most_expensive_price_usd,max_min_ratio,cheapest_vs_us_pct,yearly_saving_vs_us_usd,last_verified,page
+1password,1Password,productivity,Individual,app_store,MONTH,10,4.99,CA,4.23,5.99 CAD,GB,6.61,1.56,-15.2,9.12,2026-09-25,https://subpriced.com/service/1password
+acrobat-reader,Acrobat Reader,productivity,Premium,app_store,MONTH,18,14.99,KR,4.05,5500 KRW,DK,19.02,4.7,-73.0,131.28,2026-09-25,https://subpriced.com/service/acrobat-reader
+adobe-express,Adobe Express,photo-video,Premium,app_store,MONTH,16,9.99,TR,2,97.99 TRY,GB,11.92,5.96,-80.0,95.88,2026-09-04,https://subpriced.com/service/adobe-express
+adobe-lightroom,Adobe Lightroom,photo-video,Premium 100GB,app_store,MONTH,16,7.99,TR,1.73,84.99 TRY,GB,9.26,5.35,-78.3,75.12,2026-09-26,https://subpriced.com/service/adobe-lightroom
+adobe-photoshop,Adobe Photoshop,photo-video,Mobile & Web,app_store,MONTH,18,7.99,CH,4.81,4 CHF,GB,10.59,2.2,-39.8,38.16,2026-09-26,https://subpriced.com/service/adobe-photoshop
+adobe-premiere,Adobe Premiere,photo-video,Mobile,app_store,MONTH,13,7.99,CA,7.05,9.99 CAD,GB,10.59,1.5,-11.8,11.28,2026-09-22,https://subpriced.com/service/adobe-premiere
+anghami,Anghami,streaming,Plus,app_store,MONTH,18,5.99,NG,1.13,1500 NGN,CH,6.01,5.32,-81.1,58.32,2026-09-26,https://subpriced.com/service/anghami
+apple-music,Apple Music,streaming,Individual,official_website,MONTH,13,11.99,IN,1.45,139 INR,DK,18.11,12.49,-87.9,126.48,2026-09-29,https://subpriced.com/service/apple-music
+babbel,Babbel,education,All Languages,app_store,YEAR,12,107.99,TR,69.37,3399 TRY,NG,124.8,1.8,-35.8,38.62,2026-09-04,https://subpriced.com/service/babbel
+base44,Base44,ai,Starter,app_store,MONTH,18,19.99,CA,17.65,24.99 CAD,DK,27.24,1.54,-11.7,28.08,2026-09-14,https://subpriced.com/service/base44
+bazaart,Bazaart,photo-video,Premium,app_store,MONTH,16,11.99,TR,2.24,109.99 TRY,MX,13.35,5.96,-81.3,117.0,2026-09-04,https://subpriced.com/service/bazaart
+beautyplus,BeautyPlus,photo-video,Premium,app_store,MONTH,16,8.99,TR,1.59,77.99 TRY,DK,15.06,9.47,-82.3,88.8,2026-09-04,https://subpriced.com/service/beautyplus
+blinkist,Blinkist,education,Blinkist Premium,app_store,MONTH,16,12.99,TR,0.9,43.99 TRY,CH,15.51,17.23,-93.1,145.08,2026-09-04,https://subpriced.com/service/blinkist
+boomplay,Boomplay,streaming,Premium,app_store,MONTH,18,9.99,NG,0.68,900 NGN,GB,13.24,19.47,-93.2,111.72,2026-09-02,https://subpriced.com/service/boomplay
+bumble,Bumble,social,Boost,app_store,MONTH,17,12.99,NG,1.35,1800 NGN,CH,16.83,12.47,-89.6,139.68,2026-09-25,https://subpriced.com/service/bumble
+canva,Canva,photo-video,Pro,app_store,MONTH,17,18,NG,4.14,5500 NGN,CH,19.24,4.65,-77.0,166.32,2026-09-27,https://subpriced.com/service/canva
+capcut,CapCut,photo-video,Pro,app_store,MONTH,13,19.99,TR,8.16,399.99 TRY,DK,34.85,4.27,-59.2,141.96,2026-09-25,https://subpriced.com/service/capcut
+captions,Captions,ai,Basic,app_store,MONTH,18,9.99,NG,3.54,4700 NGN,DK,14.46,4.08,-64.6,77.4,2026-09-16,https://subpriced.com/service/captions
+character-ai,Character AI,ai,c.ai+,app_store,MONTH,14,9.99,NG,3.69,4900 NGN,DK,13.54,3.67,-63.1,75.6,2026-09-04,https://subpriced.com/service/character-ai
+chatgpt,ChatGPT,ai,Plus,app_store,MONTH,16,19.99,CA,17.65,24.99 CAD,DK,27.24,1.54,-11.7,28.08,2026-09-29,https://subpriced.com/service/chatgpt
+chineasy,Chineasy,education,Chineasy Premium,app_store,MONTH,17,12.99,NG,5.19,6900 NGN,GB,17.22,3.32,-60.0,93.6,2026-09-04,https://subpriced.com/service/chineasy
+claude,Claude,ai,Pro,app_store,MONTH,17,20,PK,17.69,4900 PKR,DK,27.24,1.54,-11.5,27.72,2026-09-29,https://subpriced.com/service/claude
+codecademy-go,Codecademy Go,education,Codecademy Pro,app_store,MONTH,15,39.99,IN,12.49,1200 INR,DK,53.11,4.25,-68.8,330.0,2026-09-04,https://subpriced.com/service/codecademy-go
+copilot,Microsoft Copilot,ai,Microsoft 365 Premium,app_store,MONTH,14,19.99,NG,12.79,17000 NGN,DK,25.72,2.01,-36.0,86.4,2026-09-27,https://subpriced.com/service/copilot
+coursera,Coursera Plus,education,Coursera Plus,app_store,MONTH,15,58.99,TR,14.29,699.99 TRY,MX,78.16,5.47,-75.8,536.4,2026-09-04,https://subpriced.com/service/coursera
+craft,Craft,productivity,Plus,app_store,MONTH,18,9.99,TR,3.25,159 TRY,GB,13.24,4.07,-67.5,80.88,2026-09-05,https://subpriced.com/service/craft
+crunchyroll,Crunchyroll,streaming,Mega Fan,app_store,MONTH,16,13.99,IN,1.24,119 INR,CH,14.31,11.54,-91.1,153.0,2026-09-01,https://subpriced.com/service/crunchyroll
+cursor,Cursor,ai,Pro,app_store,MONTH,18,25.99,CA,24.71,34.99 CAD,DK,34.85,1.41,-4.9,15.36,2026-09-26,https://subpriced.com/service/cursor
+darkroom,Darkroom,photo-video,Monthly,app_store,MONTH,17,9.99,CA,5.64,7.99 CAD,DK,13.54,2.4,-43.5,52.2,2026-09-05,https://subpriced.com/service/darkroom
+datacamp,DataCamp,education,DataCamp Standard,app_store,MONTH,15,35,IN,18.74,1800 INR,KR,38.63,2.06,-46.5,195.12,2026-09-05,https://subpriced.com/service/datacamp
+dazz-cam,Dazz Cam,photo-video,Pro,app_store,MONTH,18,6.99,TR,0.73,35.99 TRY,GB,9.26,12.68,-89.6,75.12,2026-09-05,https://subpriced.com/service/dazz-cam
+deepl,DeepL,productivity,Individual,app_store,MONTH,18,10.49,TR,7.14,349.99 TRY,AU,11.22,1.57,-31.9,40.2,2026-09-26,https://subpriced.com/service/deepl
+deepstash,Deepstash,education,Deepstash Pro,app_store,MONTH,18,12.99,NG,0.38,500 NGN,DE,26.15,68.82,-97.1,151.32,2026-09-05,https://subpriced.com/service/deepstash
+deezer,Deezer,streaming,Premium,app_store,MONTH,16,14.99,TR,1.53,74.99 TRY,CH,22.78,14.89,-89.8,161.52,2026-09-01,https://subpriced.com/service/deezer
+discord,Discord,social,Nitro,app_store,MONTH,17,9.99,NG,2.93,3900 NGN,GB,11.92,4.07,-70.7,84.72,2026-09-28,https://subpriced.com/service/discord
+disney-plus,Disney+,streaming,Premium,app_store,MONTH,14,21.49,TR,9.18,449.9 TRY,CH,28.25,3.08,-57.3,147.72,2026-09-29,https://subpriced.com/service/disney-plus
+dramabox,DramaBox,streaming,Membership,app_store,WEEK,10,19.99,TR,7.14,349.99 TRY,AU,21.04,2.95,-64.3,668.2,2026-09-02,https://subpriced.com/service/dramabox
+dreamina,Dreamina,ai,Basic,app_store,MONTH,10,15,BR,14.19,73.9 BRL,MX,16.7,1.18,-5.4,9.72,2026-09-29,https://subpriced.com/service/dreamina
+dropbox,Dropbox,productivity,Plus,app_store,MONTH,17,11.99,TR,1.63,79.99 TRY,CH,15.51,9.52,-86.4,124.32,2026-09-28,https://subpriced.com/service/dropbox
+drops,Drops,education,Premium,app_store,MONTH,15,9.99,TR,1.08,52.99 TRY,DK,12.02,11.13,-89.2,106.92,2026-09-05,https://subpriced.com/service/drops
+duolingo,Duolingo,education,Super Duolingo,app_store,MONTH,11,12.99,EG,1.25,64.99 EGP,DK,16.59,13.27,-90.4,140.88,2026-09-25,https://subpriced.com/service/duolingo
+ef-hello,EF Hello Speak,education,EF Hello Premium,app_store,MONTH,14,9.99,TR,1.33,64.99 TRY,GB,13.24,9.95,-86.7,103.92,2026-09-05,https://subpriced.com/service/ef-hello
+eggbun,Eggbun,education,Eggbun Premium,app_store,MONTH,16,9.99,TR,1.31,63.99 TRY,DK,12.93,9.87,-86.9,104.16,2026-09-05,https://subpriced.com/service/eggbun
+elevate,Elevate,education,Elevate Premium,app_store,MONTH,18,4.99,TR,0.27,12.99 TRY,CH,6.01,22.26,-94.6,56.64,2026-09-05,https://subpriced.com/service/elevate
+elsa-speak,ELSA Speak,education,ELSA Premium,app_store,MONTH,14,19.99,EG,1.88,97.99 EGP,PK,23.47,12.48,-90.6,217.32,2026-09-05,https://subpriced.com/service/elsa-speak
+encode,Encode,education,Encode Plus,app_store,MONTH,18,9.99,TR,8.16,399.99 TRY,DK,13.54,1.66,-18.3,21.96,2026-09-05,https://subpriced.com/service/encode
+endel,Endel,productivity,Subscription,app_store,YEAR,11,119.99,NG,11.21,14900 NGN,US,119.99,10.7,-90.7,108.78,2026-09-27,https://subpriced.com/service/endel
+epic-kids-books,Epic,education,Unlimited Access,app_store,MONTH,16,7.99,TR,1.37,66.99 TRY,CH,12.02,8.77,-82.9,79.44,2026-09-05,https://subpriced.com/service/epic-kids-books
+evernote,Evernote,productivity,Personal,app_store,MONTH,16,17.49,TR,7.35,359.99 TRY,CH,18.64,2.54,-58.0,121.68,2026-09-05,https://subpriced.com/service/evernote
+faceapp,FaceApp,photo-video,Pro,app_store,MONTH,17,10,TR,4.08,200 TRY,US,10,2.45,-59.2,71.04,2026-09-05,https://subpriced.com/service/faceapp
+figma,Figma,photo-video,Professional (pre-tax),official_website,MONTH,18,20,JP,19.07,3000 JPY,GB,23.86,1.25,-4.6,11.16,2026-09-29,https://subpriced.com/service/figma
+filmora,Filmora,photo-video,Pro,app_store,MONTH,18,9.99,CA,9.17,12.99 CAD,DE,14.77,1.61,-8.2,9.84,2026-09-05,https://subpriced.com/service/filmora
+finelo,Finelo,education,Finelo Premium,app_store,MONTH,18,9.99,TR,8.16,399.99 TRY,DK,13.54,1.66,-18.3,21.96,2026-09-05,https://subpriced.com/service/finelo
+gauth,Gauth,education,Gauth Plus,app_store,MONTH,16,11.99,TR,1.63,79.99 TRY,AU,13.33,8.18,-86.4,124.32,2026-09-06,https://subpriced.com/service/gauth
+gemini,Gemini,ai,Google AI Pro,app_store,MONTH,15,19.99,TR,17.76,869.99 TRY,DK,25.72,1.45,-11.2,26.76,2026-09-29,https://subpriced.com/service/gemini
+github-copilot,GitHub Copilot,ai,Copilot Pro,app_store,MONTH,18,10,NG,5.94,7900 NGN,DK,13.54,2.28,-40.6,48.72,2026-09-29,https://subpriced.com/service/github-copilot
+glm,GLM,ai,Lite,official_website,MONTH,14,18,TR,18,18 USD,TR,18,1.0,0.0,,2026-09-29,https://subpriced.com/service/glm
+goodnotes,Goodnotes,productivity,Essential,app_store,YEAR,14,11.99,EG,8.07,419.99 EGP,DK,16.59,2.06,-32.7,3.92,2026-09-06,https://subpriced.com/service/goodnotes
+goodshort,GoodShort,streaming,Weekly VIP,app_store,WEEK,18,19.99,BR,11.5,59.9 BRL,GB,26.5,2.3,-42.5,441.48,2026-09-13,https://subpriced.com/service/goodshort
+google-one,Google One,productivity,100 GB,app_store,MONTH,17,1.99,IN,1.55,149 INR,DK,2.59,1.67,-22.1,5.28,2026-09-28,https://subpriced.com/service/google-one
+grammarly,Grammarly,productivity,Premium,app_store,MONTH,15,29.99,TR,6.33,309.99 TRY,CH,38.47,6.08,-78.9,283.92,2026-09-25,https://subpriced.com/service/grammarly
+grindr,Grindr,social,XTRA,app_store,MONTH,17,22.99,EG,0.96,49.99 EGP,DK,23.59,24.57,-95.8,264.36,2026-09-06,https://subpriced.com/service/grindr
+grok,Grok,ai,SuperGrok,app_store,MONTH,17,30,TR,26.53,1299.99 TRY,FR,39.81,1.5,-11.6,41.64,2026-09-29,https://subpriced.com/service/grok
+hbo-max,HBO Max,streaming,Standard,app_store,MONTH,8,18.49,PK,2.89,800 PKR,CH,20.32,7.03,-84.4,187.2,2026-09-24,https://subpriced.com/service/hbo-max
+headway,Headway,education,Headway Premium,app_store,MONTH,17,12.99,NG,3.54,4700 NGN,DK,15.06,4.25,-72.7,113.4,2026-09-06,https://subpriced.com/service/headway
+hellotalk,HelloTalk,social,VIP,app_store,MONTH,16,12.99,IN,9.36,899 INR,CH,16.83,1.8,-27.9,43.56,2026-09-27,https://subpriced.com/service/hellotalk
+her,HER,social,Premium,app_store,MONTH,13,14.99,BR,1.82,9.5 BRL,DK,19.02,10.45,-87.9,158.04,2026-09-06,https://subpriced.com/service/her
+heygen,HeyGen,ai,Creator,app_store,MONTH,18,29,TR,20.41,999.99 TRY,FR,39.81,1.95,-29.6,103.08,2026-09-27,https://subpriced.com/service/heygen
+hinge,Hinge,social,Hinge+,app_store,MONTH,13,16.99,IN,5.19,499 INR,GB,19.87,3.83,-69.5,141.6,2026-09-06,https://subpriced.com/service/hinge
+ibis-paint-x,ibis Paint X,photo-video,Premium,app_store,MONTH,16,4.49,IN,0.3,29 INR,GB,4.63,15.43,-93.3,50.28,2026-09-06,https://subpriced.com/service/ibis-paint-x
+icloud,iCloud+,productivity,200 GB,official_website,MONTH,17,2.99,IN,2.28,219 INR,GB,3.96,1.74,-23.7,8.52,2026-09-29,https://subpriced.com/service/icloud
+imprint,Imprint,education,Imprint Premium,app_store,MONTH,17,15.99,TR,3.57,174.99 TRY,CH,19.24,5.39,-77.7,149.04,2026-09-06,https://subpriced.com/service/imprint
+impulse,Impulse,education,Premium Access,app_store,MONTH,10,6.99,NG,1.88,2500 NGN,DK,8.98,4.78,-73.1,61.32,2026-09-06,https://subpriced.com/service/impulse
+inshot,InShot,photo-video,Pro,app_store,MONTH,16,4.99,IN,4.15,399 INR,FR,6.81,1.64,-16.8,10.08,2026-09-06,https://subpriced.com/service/inshot
+instagram,Instagram,social,Meta Verified,app_store,MONTH,18,14.99,NG,3.39,4500 NGN,FR,19.32,5.7,-77.4,139.2,2026-09-27,https://subpriced.com/service/instagram
+invideo,invideo AI,ai,Plus,app_store,MONTH,18,30,TR,16.33,799.99 TRY,FR,34.11,2.09,-45.6,164.04,2026-09-07,https://subpriced.com/service/invideo
+kimi,Kimi,ai,Moderato,app_store,MONTH,14,19,TR,16.33,799.99 TRY,DK,27.24,1.67,-14.1,32.04,2026-09-28,https://subpriced.com/service/kimi
+kinemaster,KineMaster,photo-video,Premium,app_store,MONTH,18,8.49,NG,2.18,2900 NGN,MX,15.59,7.15,-74.3,75.72,2026-09-07,https://subpriced.com/service/kinemaster
+kling-ai,Kling AI,ai,Standard,app_store,MONTH,14,10,TR,9.18,449.99 TRY,DK,13.54,1.47,-8.2,9.84,2026-09-27,https://subpriced.com/service/kling-ai
+le-chat,Le Chat,ai,Pro,app_store,MONTH,16,14.99,PK,14.08,3900 PKR,FR,20.46,1.45,-6.1,10.92,2026-09-07,https://subpriced.com/service/le-chat
+leonardo-ai,Leonardo AI,ai,Essential,app_store,MONTH,14,15.99,NG,5.94,7900 NGN,FR,20.46,3.44,-62.9,120.6,2026-09-27,https://subpriced.com/service/leonardo-ai
+lingokids,Lingokids,education,Lingokids Plus,app_store,MONTH,17,14.99,TR,2,97.99 TRY,CH,24.05,12.03,-86.7,155.88,2026-09-07,https://subpriced.com/service/lingokids
+lingvano,Lingvano,education,Lingvano Premium,app_store,MONTH,10,19.99,CA,12.7,17.99 CAD,BR,24.94,1.96,-36.5,87.48,2026-09-07,https://subpriced.com/service/lingvano
+lingvist,Lingvist,education,Lingvist Unlimited,app_store,MONTH,11,9.99,TR,4.08,199.99 TRY,DK,13.54,3.32,-59.2,70.92,2026-09-07,https://subpriced.com/service/lingvist
+linkedin,LinkedIn,social,Premium Career,app_store,MONTH,18,39.99,TR,2.24,109.99 TRY,CH,48.03,21.44,-94.4,453.0,2026-09-07,https://subpriced.com/service/linkedin
+lovable,Lovable,ai,Pro,app_store,MONTH,18,39.99,CA,35.3,49.99 CAD,DK,53.11,1.5,-11.7,56.28,2026-09-14,https://subpriced.com/service/lovable
+lumosity,Lumosity,education,Lumosity Premium,app_store,MONTH,15,11.99,IN,1.03,99 INR,DK,14.46,14.04,-91.4,131.52,2026-09-07,https://subpriced.com/service/lumosity
+manus,Manus,ai,Plus,app_store,MONTH,14,39,CA,34.6,49 CAD,DK,53.11,1.53,-11.3,52.8,2026-09-28,https://subpriced.com/service/manus
+meitu,Meitu,photo-video,VIP,app_store,MONTH,17,12.99,BR,5.74,29.9 BRL,US,12.99,2.26,-55.8,87.0,2026-09-26,https://subpriced.com/service/meitu
+memrise,Memrise,education,Memrise Pro,app_store,MONTH,18,24.99,TR,8.98,439.99 TRY,GB,25.17,2.8,-64.1,192.12,2026-09-07,https://subpriced.com/service/memrise
+microsoft-excel,Microsoft Excel,productivity,365 Personal,app_store,MONTH,18,9.99,EG,4.59,239 EGP,JP,13.35,2.91,-54.1,64.8,2026-09-07,https://subpriced.com/service/microsoft-excel
+microsoft-onedrive,Microsoft OneDrive,productivity,365 Personal,app_store,MONTH,18,9.99,PK,3.32,920 PKR,DK,12.02,3.62,-66.8,80.04,2026-09-27,https://subpriced.com/service/microsoft-onedrive
+microsoft-powerpoint,Microsoft PowerPoint,productivity,365 Personal,app_store,MONTH,18,9.99,EG,4.22,219.99 EGP,JP,13.35,3.16,-57.8,69.24,2026-09-07,https://subpriced.com/service/microsoft-powerpoint
+microsoft-word,Microsoft Word,productivity,365 Family,app_store,MONTH,18,12.99,EG,5.55,289 EGP,JP,17.16,3.09,-57.3,89.28,2026-09-08,https://subpriced.com/service/microsoft-word
+mimo,Mimo,education,Highest,app_store,MONTH,16,99.99,TR,51.02,2499.99 TRY,DK,106.36,2.08,-49.0,587.64,2026-09-08,https://subpriced.com/service/mimo
+mojo,Mojo,photo-video,Pro,app_store,MONTH,18,17.99,TR,2.86,139.99 TRY,CH,28.85,10.09,-84.1,181.56,2026-09-08,https://subpriced.com/service/mojo
+mubi,MUBI,streaming,Monthly,app_store,MONTH,18,14.99,NG,4.51,6000 NGN,DE,18.19,4.03,-69.9,125.76,2026-09-13,https://subpriced.com/service/mubi
+my-new-app,my-new-app,mobile-game,Pro,official_website,MONTH,1,4.99,US,4.99,4.99 USD,US,4.99,1.0,0.0,,2026-10-10,https://subpriced.com/service/my-new-app
+netflix,Netflix,streaming,Standard,app_store,MONTH,17,19.99,PK,2.89,800 PKR,CH,27.53,9.53,-85.5,205.2,2026-09-29,https://subpriced.com/service/netflix
+notability,Notability,productivity,Plus,app_store,YEAR,18,19.99,JP,13.98,2200 JPY,DK,27.24,1.95,-30.1,6.01,2026-09-27,https://subpriced.com/service/notability
+notion,Notion,productivity,Plus,app_store,MONTH,16,11.99,TR,10.2,499.99 TRY,GB,15.89,1.56,-14.9,21.48,2026-09-27,https://subpriced.com/service/notion
+opal,Opal,productivity,Pro,app_store,MONTH,18,19.99,JP,12.71,2000 JPY,DK,27.24,2.14,-36.4,87.36,2026-09-08,https://subpriced.com/service/opal
+otter,Otter,productivity,Pro,app_store,MONTH,18,16.99,JP,15.89,2500 JPY,DK,24.19,1.52,-6.5,13.2,2026-09-08,https://subpriced.com/service/otter
+pdf-expert,PDF Expert,productivity,Premium,app_store,YEAR,18,49.99,NG,16.47,21900 NGN,DK,64.67,3.93,-67.1,33.52,2026-09-08,https://subpriced.com/service/pdf-expert
+perplexity,Perplexity,ai,Professional,app_store,MONTH,14,20,CA,17.65,25 CAD,DK,27.24,1.54,-11.8,28.2,2026-09-28,https://subpriced.com/service/perplexity
+photoroom,Photoroom,photo-video,Pro,app_store,MONTH,17,9.99,TR,1.22,59.99 TRY,GB,13.24,10.85,-87.8,105.24,2026-09-08,https://subpriced.com/service/photoroom
+picsart,Picsart,photo-video,Gold,app_store,MONTH,18,12.99,TR,1.22,59.99 TRY,GB,14.57,11.94,-90.6,141.24,2026-09-08,https://subpriced.com/service/picsart
+pimsleur,Pimsleur,education,All Access,app_store,MONTH,18,20.99,EG,6.34,329.99 EGP,MX,27.88,4.4,-69.8,175.8,2026-09-08,https://subpriced.com/service/pimsleur
+podimo,Podimo,streaming,Premium,app_store,MONTH,6,4.99,AR,4.99,4.99 USD,DK,15.06,3.02,0.0,,2026-09-03,https://subpriced.com/service/podimo
+poe,Poe,ai,Monthly,app_store,MONTH,16,19.99,CA,17.65,24.99 CAD,DK,27.24,1.54,-11.7,28.08,2026-09-08,https://subpriced.com/service/poe
+pollo-ai,Pollo AI,ai,Weekly Premium,app_store,WEEK,13,5.99,TR,5.1,249.99 TRY,DE,7.95,1.56,-14.9,46.28,2026-09-27,https://subpriced.com/service/pollo-ai
+powerdirector,PowerDirector,photo-video,Premium,app_store,MONTH,18,7.99,JP,6.1,960 JPY,AR,18.99,3.11,-23.7,22.68,2026-09-08,https://subpriced.com/service/powerdirector
+prequel,Prequel,photo-video,Gold,app_store,WEEK,18,5.99,EG,2.88,149.99 EGP,MX,11.12,3.86,-51.9,161.72,2026-09-08,https://subpriced.com/service/prequel
+proton-mail,Proton Mail,productivity,Mail Plus,app_store,MONTH,18,5.99,TR,3.06,149.99 TRY,CH,7.69,2.51,-48.9,35.16,2026-09-08,https://subpriced.com/service/proton-mail
+quizlet,Quizlet,education,Quizlet Plus,app_store,MONTH,18,44.99,EG,9.6,499.99 EGP,GB,59.63,6.21,-78.7,424.68,2026-09-09,https://subpriced.com/service/quizlet
+raya,Raya,social,Membership,app_store,MONTH,17,113.99,NG,14.97,19900 NGN,CH,132.25,8.83,-86.9,1188.24,2026-09-09,https://subpriced.com/service/raya
+reading-com,Learn to Read - Reading.com,education,Learn to Read,app_store,MONTH,15,12.49,NG,7.45,9900 NGN,FR,17.05,2.29,-40.4,60.48,2026-09-09,https://subpriced.com/service/reading-com
+reddit,Reddit,social,Premium,app_store,MONTH,18,6.99,TR,1,48.99 TRY,CH,9.02,9.02,-85.7,71.88,2026-09-27,https://subpriced.com/service/reddit
+reelshort,ReelShort,streaming,Subscription,app_store,WEEK,18,19.99,AR,9.99,9.99 USD,DK,27.24,2.73,-50.0,520.0,2026-09-11,https://subpriced.com/service/reelshort
+remini,Remini,photo-video,Pro,app_store,WEEK,18,9.99,NG,3.69,4900 NGN,DK,13.54,3.67,-63.1,327.6,2026-09-09,https://subpriced.com/service/remini
+replit,Replit,ai,Core,app_store,MONTH,18,20,CA,17.65,25 CAD,DK,27.24,1.54,-11.8,28.2,2026-09-25,https://subpriced.com/service/replit
+rosetta-stone,Rosetta Stone,education,Unlimited Languages,app_store,YEAR,10,109.99,TR,10.82,529.99 TRY,DK,142.88,13.21,-90.2,99.17,2026-09-09,https://subpriced.com/service/rosetta-stone
+runwayml,RunwayML,ai,Standard,app_store,MONTH,17,14.99,CA,14.12,19.99 CAD,FR,20.46,1.45,-5.8,10.44,2026-09-09,https://subpriced.com/service/runwayml
+scrl,SCRL,photo-video,Premium,app_store,WEEK,18,4.99,NG,2.93,3900 NGN,FR,6.81,2.32,-41.3,107.12,2026-09-09,https://subpriced.com/service/scrl
+skillshare,Skillshare,education,Skillshare Membership,app_store,YEAR,18,167.99,IN,28.61,2749 INR,GB,238.57,8.34,-83.0,139.38,2026-09-27,https://subpriced.com/service/skillshare
+snapchat,Snapchat,social,Snapchat+,app_store,MONTH,18,4.99,EG,0.38,19.99 EGP,GB,6.61,17.39,-92.4,55.32,2026-09-09,https://subpriced.com/service/snapchat
+sololearn,Sololearn,education,Sololearn PRO,app_store,MONTH,17,6.99,PK,0.58,160 PKR,GB,8.6,14.83,-91.7,76.92,2026-09-09,https://subpriced.com/service/sololearn
+soundcloud,SoundCloud,streaming,Go+,app_store,MONTH,18,14.99,TR,0.8,38.99 TRY,CH,22.78,28.48,-94.7,170.28,2026-08-31,https://subpriced.com/service/soundcloud
+speak,Speak,education,Premium,app_store,MONTH,16,17.99,TR,3.27,159.99 TRY,FR,27.85,8.52,-81.8,176.64,2026-09-16,https://subpriced.com/service/speak
+speak-learn-english,Speak & Learn English,education,Learna Pro,app_store,MONTH,18,17.99,AU,14.03,19.99 AUD,DK,37.89,2.7,-22.0,47.52,2026-09-10,https://subpriced.com/service/speak-learn-english
+speechify,Speechify,productivity,Premium,app_store,MONTH,18,24.99,EG,4.01,209 EGP,FR,34.11,8.51,-84.0,251.76,2026-09-10,https://subpriced.com/service/speechify
+spotify,Spotify,streaming,Individual,official_website,MONTH,15,12.99,NG,1.2,1600 NGN,CH,19.18,15.98,-90.8,141.48,2026-09-29,https://subpriced.com/service/spotify
+structured,Structured,productivity,Pro,app_store,MONTH,18,8.99,TR,1.43,69.99 TRY,US,8.99,6.29,-84.1,90.72,2026-09-10,https://subpriced.com/service/structured
+suno,Suno,ai,Pro,app_store,MONTH,14,10,JP,9.54,1500 JPY,DK,13.54,1.42,-4.6,5.52,2026-09-27,https://subpriced.com/service/suno
+telegram,Telegram,social,Premium,app_store,MONTH,18,4.99,PK,3.32,920 PKR,DK,6.85,2.06,-33.5,20.04,2026-09-25,https://subpriced.com/service/telegram
+tidal,TIDAL,streaming,Individual,app_store,MONTH,12,15.49,NG,3.69,4900 NGN,CH,24.05,6.52,-76.2,141.6,2026-09-14,https://subpriced.com/service/tidal
+tinder,Tinder,social,Gold,app_store,MONTH,17,24.99,TR,2.04,99.99 TRY,DK,38.8,19.02,-91.8,275.4,2026-09-27,https://subpriced.com/service/tinder
+todoist,Todoist,productivity,Pro,app_store,MONTH,18,6.99,IN,3.43,330 INR,GB,9.26,2.7,-50.9,42.72,2026-09-10,https://subpriced.com/service/todoist
+viki,Viki,streaming,Pass Standard,app_store,MONTH,16,7.99,TR,0.27,12.99 TRY,CH,10.7,39.63,-96.6,92.64,2026-09-13,https://subpriced.com/service/viki
+vocabulary,Vocabulary,education,Vocabulary Premium,app_store,MONTH,17,47.99,AR,17.99,17.99 USD,GB,63.61,3.54,-62.5,360.0,2026-09-10,https://subpriced.com/service/vocabulary
+vsco,VSCO,photo-video,Plus,app_store,MONTH,18,9.99,TR,1.8,87.99 TRY,DK,13.54,7.52,-82.0,98.28,2026-09-28,https://subpriced.com/service/vsco
+wps-office,WPS Office,productivity,Pro AI,app_store,MONTH,12,5.99,NG,1.88,2500 NGN,FR,7.95,4.23,-68.6,49.32,2026-09-29,https://subpriced.com/service/wps-office
+x,X,social,Premium,app_store,MONTH,17,11,TR,4.08,199.99 TRY,GB,14.58,3.57,-62.9,83.04,2026-09-29,https://subpriced.com/service/x
+xmind,Xmind,productivity,Premium,app_store,MONTH,15,15,TR,12.25,599.99 TRY,GB,19.88,1.62,-18.3,33.0,2026-09-28,https://subpriced.com/service/xmind
+youtube,YouTube,streaming,Premium,app_store,MONTH,17,20.99,NG,1.65,2200 NGN,DK,31.8,19.27,-92.1,232.08,2026-09-29,https://subpriced.com/service/youtube
+zoom,Zoom,productivity,Pro,app_store,MONTH,16,16.99,IN,5.19,499 INR,DK,23.59,4.55,-69.5,141.6,2026-09-10,https://subpriced.com/service/zoom
