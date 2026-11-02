@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subscription Price Gaps</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#1b1f24;--muted:#667085;--line:#e4e7ec;--accent:#2563eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#171c23;--text:#e8ebef;--muted:#98a2b3;--line:#262d37;--accent:#60a5fa}}
+*{box-sizing:border-box}body{margin:0;font:14px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--text)}
+header{padding:20px 24px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:20px}header p{margin:2px 0 0;color:var(--muted)}
+main{max-width:1200px;margin:0 auto;padding:20px;display:grid;gap:16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.kpi b{display:block;font-size:26px}.kpi span{color:var(--muted)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:16px}
+h2{margin:0 0 10px;font-size:15px}.wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%}th,td{padding:6px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}th{color:var(--muted);font-weight:600;cursor:pointer}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+input,select,button{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--text)}
+button{cursor:pointer}.pager{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--muted)}
+canvas{max-height:340px}
+</style>
+</head>
+<body>
+<header><h1>Subscription Price Gaps by Country</h1>
+<p>146 digital subscriptions across 18 countries vs the US · snapshot 30 Sep 2026 · <a href="/docs" style="color:var(--accent)">API docs</a></p></header>
+<main>
+  <div class="kpis" id="kpis"></div>
+  <div class="grid2">
+    <div class="card"><h2>Biggest price gaps (most expensive ÷ cheapest)</h2><canvas id="gaps"></canvas></div>
+    <div class="card"><h2>Median price vs US by country (%)</h2><canvas id="countries"></canvas></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h2>Country is cheapest / most expensive for N services</h2><canvas id="extremes"></canvas></div>
+    <div class="card"><h2>Average gap ratio by category</h2><canvas id="cats"></canvas></div>
+  </div>
+  <div class="card"><h2>Category × country: median price vs US (%)</h2><div class="wrap"><table id="matrix"></table></div></div>
+  <div class="card"><h2>Services</h2>
+    <div class="controls">
+      <input id="q" placeholder="Search service…">
+      <select id="cat"><option value="">All categories</option></select>
+      <select id="sort">
+        <option value="max_min_ratio">Sort: gap ratio</option>
+        <option value="yearly_saving_vs_us_usd">Sort: yearly saving</option>
+        <option value="cheapest_vs_us_pct">Sort: cheapest vs US</option>
+        <option value="us_price_usd">Sort: US price</option>
+        <option value="name">Sort: name</option>
+      </select>
+      <button id="dir">↓ desc</button>
+    </div>
+    <div class="wrap"><table id="svc"></table></div>
+    <div class="pager"><button id="prev">Prev</button><span id="pg"></span><button id="next">Next</button></div>
+  </div>
+</main>
+<script>
+const $=id=>document.getElementById(id), api=p=>fetch('/api'+p).then(r=>r.json());
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt=(v,d=1)=>v==null?'–':Number(v).toFixed(d);
+let state={offset:0,limit:15,order:'desc',total:0};
+
+function chart(id,type,labels,datasets,opts={}){
+  new Chart($(id),{type,data:{labels,datasets},options:{responsive:true,indexAxis:opts.horizontal?'y':'x',
+    plugins:{legend:{display:datasets.length>1,labels:{color:css('--text')}}},
+    scales:{x:{ticks:{color:css('--muted')},grid:{color:css('--line')}},y:{ticks:{color:css('--muted')},grid:{color:css('--line')}}}}});
+}
+async function dashboard(){
+  const [s,top,countries,ext,cats,matrix]=await Promise.all([
+    api('/stats/summary'),api('/services?limit=10&sort=max_min_ratio'),api('/countries'),
+    api('/stats/extremes'),api('/stats/by-category'),api('/categories/matrix')]);
+  $('kpis').innerHTML=[
+    [s.services,'services tracked'],[s.countries,'countries vs US'],
+    [fmt(s.avg_cheapest_vs_us_pct)+'%','avg cheapest vs US'],
+    [fmt(s.largest_gap.ratio)+'×',s.largest_gap.name+' – largest gap']
+  ].map(([b,t])=>`<div class="card kpi"><b>${b}</b><span>${t}</span></div>`).join('');
+  const a=css('--accent');
+  chart('gaps','bar',top.items.map(x=>x.name),[{label:'ratio',data:top.items.map(x=>x.max_min_ratio),backgroundColor:a}],{horizontal:true});
+  const cs=countries.filter(c=>c.iso!=='US');
+  chart('countries','bar',cs.map(c=>c.name),[{label:'median vs US %',data:cs.map(c=>c.median_price_vs_us_pct),backgroundColor:cs.map(c=>c.median_price_vs_us_pct<0?'#16a34a':'#dc2626')}]);
+  const names=Object.fromEntries(countries.map(c=>[c.iso,c.name])), isos=[...new Set([...ext.cheapest,...ext.most_expensive].map(x=>x.country))];
+  const get=(l,i)=>(l.find(x=>x.country===i)||{services:0}).services;
+  chart('extremes','bar',isos.map(i=>names[i]||i),[
+    {label:'cheapest',data:isos.map(i=>get(ext.cheapest,i)),backgroundColor:'#16a34a'},
+    {label:'most expensive',data:isos.map(i=>get(ext.most_expensive,i)),backgroundColor:'#dc2626'}]);
+  chart('cats','bar',cats.map(c=>c.category),[{label:'avg ratio',data:cats.map(c=>c.avg_ratio),backgroundColor:a}]);
+  const cols=Object.keys(Object.values(matrix)[0]);
+  const cell=v=>{if(v==null)return'<td>–</td>';const t=Math.min(Math.abs(v)/70,1)*.55;
+    return `<td style="background:rgba(${v<0?'22,163,74':'220,38,38'},${t})">${fmt(v)}</td>`};
+  $('matrix').innerHTML='<tr><th>category</th>'+cols.map(c=>`<th>${c}</th>`).join('')+'</tr>'+
+    Object.entries(matrix).map(([k,r])=>`<tr><td>${k}</td>${cols.map(c=>cell(r[c])).join('')}</tr>`).join('');
+  $('cat').innerHTML+=cats.map(c=>`<option>${c.category}</option>`).join('');
+}
+async function table(){
+  const p=new URLSearchParams({q:$('q').value,category:$('cat').value,sort:$('sort').value,order:state.order,limit:state.limit,offset:state.offset});
+  [...p.keys()].forEach(k=>!p.get(k)&&p.delete(k));
+  const r=await api('/services?'+p); state.total=r.total;
+  $('svc').innerHTML='<tr><th>Service</th><th>Category</th><th>US $</th><th>Cheapest</th><th>Priciest</th><th>Ratio</th><th>vs US %</th><th>Yearly saving $</th></tr>'+
+    r.items.map(x=>`<tr><td><a href="${x.page||'#'}" target="_blank" rel="noopener" style="color:var(--accent)">${x.name}</a> <small style="color:var(--muted)">${x.plan||''}</small></td>
+    <td>${x.category}</td><td>${fmt(x.us_price_usd,2)}</td><td>${x.cheapest_country} $${fmt(x.cheapest_price_usd,2)}</td>
+    <td>${x.most_expensive_country} $${fmt(x.most_expensive_price_usd,2)}</td><td>${fmt(x.max_min_ratio,2)}×</td>
+    <td>${fmt(x.cheapest_vs_us_pct)}</td><td>${fmt(x.yearly_saving_vs_us_usd,2)}</td></tr>`).join('');
+  $('pg').textContent=`${Math.min(state.offset+1,state.total)}–${Math.min(state.offset+state.limit,state.total)} of ${state.total}`;
+}
+const reset=()=>{state.offset=0;table()};
+$('q').oninput=reset;$('cat').onchange=reset;$('sort').onchange=reset;
+$('dir').onclick=()=>{state.order=state.order==='desc'?'asc':'desc';$('dir').textContent=state.order==='desc'?'↓ desc':'↑ asc';reset()};
+$('prev').onclick=()=>{state.offset=Math.max(0,state.offset-state.limit);table()};
+$('next').onclick=()=>{if(state.offset+state.limit<state.total){state.offset+=state.limit;table()}};
+dashboard().then(table);
+</script>
+</body>
+</html>
